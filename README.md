@@ -12,6 +12,7 @@ Brownian motion or Wiener's process is a stochastic process which satisfies 4 co
 2. $\forall_{0 \leq t < s}\hspace{0.25cm}W_s - W_t \sim \mathbb{N} (0, s - t)$,
 3. $\forall_{n \in \mathbb{N}}\hspace{0.25cm}\forall_{0 \leq t_1 < t_2 < t_3 < ... < t_{n-1} < t_n}\hspace{0.25cm}(W_{t_2} - W_{t_1}) {\perp\perp} (W_{t_3} - W_{t_2}) {\perp\perp} ... {\perp\perp} (W_{t_n} - W_{t_{n-1}})$,
 4. $\forall_{\omega \in \Omega}\hspace{0.25cm}X_{\bullet}(\omega): T \to R$ is a continuous function.
+
 In our project modified version, named fractional Brownian motion, is used to randomly generate surface in 3d.
 
 ## Usage
